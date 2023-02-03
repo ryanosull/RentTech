@@ -84,3 +84,4 @@ production:
   database: rent_tech_production
   username: rent_tech
   password: <%= ENV["RENT_TECH_DATABASE_PASSWORD"] %>
+  url: <%= ENV['DATABASE_URL'] %>
